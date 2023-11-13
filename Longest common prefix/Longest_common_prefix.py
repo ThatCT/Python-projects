@@ -1,7 +1,5 @@
 
-
 class LongestCommonPrefix():
-
     def find_prefix(self, x):
         """
         Finds the most common prefix in a list of strings
@@ -16,7 +14,6 @@ class LongestCommonPrefix():
                     return longest_prefix
             longest_prefix += x[0][letter]
         return longest_prefix
-
 
 LCP = LongestCommonPrefix()
 lcp = LCP.find_prefix(["flow", "flower", "flight"])
