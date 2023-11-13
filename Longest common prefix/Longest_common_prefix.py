@@ -1,5 +1,5 @@
 
-class LongestCommonPrefix():
+class LongestCommonPrefix:
     def find_prefix(self, x):
         """
         Finds the most common prefix in a list of strings
